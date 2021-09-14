@@ -2,7 +2,7 @@ from time import sleep
 from random import randint
 
 jogarnovamente = "S"
-itens = ("Pedra", "Papel", "Tesoura")
+itens = ["Pedra", "Papel", "Tesoura"]
 
 while jogarnovamente == "S":
     computador = randint(0, 2)
